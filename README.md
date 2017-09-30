@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://github.com/jimaki/AXES/blob/master/axes_liko12.gif" />
-  <img src="https://github.com/jimaki/AXES/blob/master/axes_tic80.gif" width="52%" height="52%" />
+  <img src="https://github.com/jimaki/AXES/blob/master/axes_tic80.gif" width="51%" height="51%" />
 </p>
 
 ## API:
