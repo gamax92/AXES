@@ -7,6 +7,11 @@
 
 **AXES** is an easily portable 3D Lua engine made specifically but not implicitly for fantasy consoles such as TIC-80 or LIKO-12.
 
+<p align="center">
+  <img src="https://github.com/jimaki/AXES/blob/master/axes_liko12.gif" />
+  <img src="https://github.com/jimaki/AXES/blob/master/axes_tic80.gif" width="52%" height="52%" />
+</p>
+
 ## API:
 ### Functions:
 - `init([cam_x,cam_y,cam_z,cam_theta_x,cam_theta_y,cam_theta_z,cam_fov,screen_height,screen_width])` - **[** *numbers* **]**
