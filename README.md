@@ -8,6 +8,12 @@
 **AXES** is an easily portable 3D Lua engine made specifically but not implicitly for fantasy consoles such as TIC-80 or LIKO-12.
 
 <p align="center">
+  <b> BUY THE ORIGINAL SOURCE CODE AND SUPPORT ME <a href="https://gum.co/Cfblc">HERE </a> </b>
+</p>
+
+**Usage** of this library is **for free**, but because time is money, I need to cover up the expenses it has made, so if you want the **normal** (*not minified*) version of the source code, please consider buying it for **4.99$ on Gumroad** and directly support the further development of this library, **thank you**.
+  
+<p align="center">
   <img src="https://github.com/jimaki/AXES/blob/master/axes_liko12.gif" />
   <img src="https://github.com/jimaki/AXES/blob/master/axes_tic80.gif" width="51%" height="51%" />
 </p>
