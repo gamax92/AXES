@@ -70,11 +70,10 @@ name={
 
 ## To-Do:
 - `2.0.0`
-  * light source
-  * dithering
+  * ground + skybox
+  * light source + dithering
 - `3.0.0`
   * raytracing
-  * skybox
   * shadows
 - `4.0.0`
   * physics
