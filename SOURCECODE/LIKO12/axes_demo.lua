@@ -17,9 +17,9 @@ function _init()
   t=0
 end
 --------------- update ---------------
-function TIC()
+function _update(dt)
   --clear screen
-  cls(1)
+  cls(13)
   --rotate objects
   --syntax:set_rotation(name[,rotation])
   a:set_rotation('tet',{t*2,0,0})
@@ -32,12 +32,10 @@ function TIC()
   for i=0,8 do a:draw_line({-4+i,0,-4},{-4+i,0,4},4) end
   for i=0,8 do a:draw_line({-4,0,4-i},{4,0,4-i},4) end
   --toggle debug mode
-  if btn(4) and btn(5) then a.debug=not a.debug end
+  if btnp(5) and btnp(6) then a.debug=not a.debug end
   --update
   --syntax:update([cam])
   a:update('plane')
   --add time
   t=t+1
 end
-
-_init()
