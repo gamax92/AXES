@@ -2,7 +2,7 @@
 ------------- initialize -------------
 function _init()
   --initialize axes
-  a=axes.init({screen_width=240,screen_height=136})
+  a=axes.init({screen_width=192,screen_height=128})
   --create objects
   --syntax:create_object(name,shape[,position[,wireframe[,fill[,color[,scale[,rotation[,solid]]]]]]])
   a:create_object('tet',a.shapes.tetrahedron,{-2.5,0.5,2.5},true,true,6,0.5,{0,0,0},true)
@@ -19,7 +19,7 @@ end
 --------------- update ---------------
 function _update(dt)
   --clear screen
-  cls(13)
+  clear(1)
   --rotate objects
   --syntax:set_rotation(name[,rotation])
   a:set_rotation('tet',{t*2,0,0})
